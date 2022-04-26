@@ -8,7 +8,7 @@ public class BuilderStringBuilderDemo {
 		stringBuilder.append("This is the first line.");
 		stringBuilder.append(" This is the second line.");
 		stringBuilder.append(" This is the third line.");
-		stringBuilder.append(" 4");
+		stringBuilder.append(4);
 
 		System.out.println(stringBuilder.toString());
 	}
